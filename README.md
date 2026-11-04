@@ -27,7 +27,7 @@ Proposal **11 月 12 日截止**（CMT + Gradescope），草稿在 [proposal/](p
 | [pilot/RESULTS.md](pilot/RESULTS.md) | pilot：只靠 prompt / few-shot / 小 LoRA，模型会不会用 1x3 |
 | [newbrick/STAGE0_REPORT.md](newbrick/STAGE0_REPORT.md) | 阶段 0：Gurobi、检查器速度、STABLE 指标、拼法代码 |
 | [newbrick/investigate_score1/REPORT.md](newbrick/investigate_score1/REPORT.md) | Gurobi 容差 bug 的调查和修正 |
-| [newbrick/STAGE1_REPORT.md](newbrick/STAGE1_REPORT.md) | 阶段 1：1x3 的物理可行性，以及补测的 2x3、1x10、1x12 |
+| [newbrick/STAGE1_REPORT.md](newbrick/STAGE1_REPORT.md) | 阶段 1：1x3 的物理可行性，以及补测的 2x3、1x10、1x12、2x8、2x10、4x6、全部一起加 |
 | [newbrick/MORNING_REPORT.md](newbrick/MORNING_REPORT.md) | 11-04 通宵实验汇总：新零件、bug 影响面、生成对比、Colab 基线及打分 |
 | **代码和数据说明** | |
 | [newbrick/colab/](newbrick/colab/) | Colab 笔记本 `brickgpt_newbrick.ipynb`（由 `build_notebook.py` 生成；公共函数在 `helpers.py`） |
@@ -49,6 +49,16 @@ Proposal **11 月 12 日截止**（CMT + Gradescope），草稿在 [proposal/](p
 | 拿掉 1 块砖后最差剩余比例（↑） | 0.969 | 0.964 | 0.965 | 0.958（**更差**，p=0.008） | 0.942（**更差**，p=0.013） |
 
 STABLE 论文的 interlocking 和 seam 指标，四种零件都没有显著变好。
+
+补测宽砖和"全部 7 种一起加"（11-05）：
+
+| | 原 8 种 | +2x8 | +2x10 | +4x6 | +全部 7 种 |
+|---|---|---|---|---|---|
+| Gurobi 稳定性分数中位数（↓） | 0.064 | 0.037（p=0.41） | 0.025（p=0.069） | 0.044（p=0.49） | 0.028（p=0.39） |
+| 砖数中位数（↓） | 62.5 | **56.0（p<0.001）** | **62.0（p<0.001）** | **59.5（p<0.001）** | **51.0（p<0.001）** |
+| 拿掉 1 块砖后最差剩余比例（↑） | 0.969 | 0.962（**更差**，p=0.031） | 0.949（**更差**，p=0.003） | 0.939（**更差**，p<0.001） | 0.945（**更差**，p<0.001） |
+
+结论不变：8 种长方形新砖都不能让结构显著更稳，只能省砖，大砖还会让抗扰动能力变差。
 → [newbrick/STAGE1_REPORT.md](newbrick/STAGE1_REPORT.md)
 
 ### 2. BrickGPT 的 Gurobi 稳定性检查有一个数值 bug
@@ -81,7 +91,7 @@ pilot/                     早期 pilot：prompt / few-shot / 小 LoRA 探针
   probe*.py, gen.py, lora_tiny.py, results_*.json, RESULTS.md
 newbrick/                  阶段 0 起的正式实验
   STAGE0_REPORT.md           阶段 0：环境、Gurobi 计时、可复用的 STABLE 指标
-  STAGE1_REPORT.md           阶段 1：新零件物理可行性（1x3 + 补充 2x3/1x10/1x12）
+  STAGE1_REPORT.md           阶段 1：新零件物理可行性（1x3 + 补充 7 种）
   MORNING_REPORT.md          11-04 通宵实验汇总
   investigate_score1/        Gurobi bug 的调查
   stage1.py                  拼法 + 打分（STABLE 的 mesh2brick 拼法算法 + Gurobi）

@@ -1,0 +1,30 @@
+{
+"n_shapes": 40,
+"n_layouts": {
+"A": 440,
+"Ball": 440
+},
+"all_layouts_stable_rate": {
+"A": 0.7681818181818182,
+"Ball": 0.8477272727272728
+},
+"det_unstable": {
+"A": 13,
+"Ball": 8
+},
+"B_best_has_1x3": 40,
+"B_best_mean_1x3": 15.95,
+"only_B_stable": [],
+"only_A_stable": [
+262
+]
+}
+best layout stable: A 40/40, Ball 39/40
+Ball vs A | best_max             A med 0.0643 | B med 0.0276 | B better 24, A better 14, tie  2 | Wilcoxon p=0.388
+Ball vs A | best_mean            A med 0.0002 | B med 0.0002 | B better 24, A better 15, tie  1 | Wilcoxon p=0.566
+Ball vs A | best_n_bricks        A med 62.5000 | B med 51.0000 | B better 40, A better  0, tie  0 | Wilcoxon p=1.82e-12
+Ball vs A | best_interlocking    A med 0.3810 | B med 0.3245 | B better 14, A better 26, tie  0 | Wilcoxon p=0.00228
+Ball vs A | best_seam            A med 0.6442 | B med 0.6615 | B better 24, A better 10, tie  6 | Wilcoxon p=0.0107
+Ball vs A | perturb_single_min   A med 0.9685 | B med 0.9449 | B better  6, A better 33, tie  1 | Wilcoxon p=4.02e-06
+Ball vs A | perturb_pair_min     A med 0.9249 | B med 0.8132 | B better  9, A better 28, tie  3 | Wilcoxon p=0.00254
+Ball vs A | perturb_critical     A med 0.1231 | B med 0.1362 | B better 20, A better 20, tie  0 | Wilcoxon p=0.725

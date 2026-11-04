@@ -1,0 +1,8 @@
+B      stable fraction per shape: A mean 0.768 | B mean 0.814 | B better 15, A better 10, tie 15 | Wilcoxon p=0.18
+B2x3   stable fraction per shape: A mean 0.768 | B2x3 mean 0.784 | B2x3 better 13, A better 13, tie 14 | Wilcoxon p=0.628
+B1x10  stable fraction per shape: A mean 0.768 | B1x10 mean 0.730 | B1x10 better 7, A better 17, tie 16 | Wilcoxon p=0.151
+B1x12  stable fraction per shape: A mean 0.768 | B1x12 mean 0.766 | B1x12 better 15, A better 13, tie 12 | Wilcoxon p=0.909
+B2x8   stable fraction per shape: A mean 0.768 | B2x8 mean 0.780 | B2x8 better 16, A better 14, tie 10 | Wilcoxon p=0.679
+B2x10  stable fraction per shape: A mean 0.768 | B2x10 mean 0.789 | B2x10 better 14, A better 11, tie 15 | Wilcoxon p=0.214
+B4x6   stable fraction per shape: A mean 0.768 | B4x6 mean 0.818 | B4x6 better 16, A better 13, tie 11 | Wilcoxon p=0.0667
+Ball   stable fraction per shape: A mean 0.768 | Ball mean 0.848 | Ball better 19, A better 7, tie 14 | Wilcoxon p=0.0496
