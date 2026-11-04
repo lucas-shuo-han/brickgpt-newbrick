@@ -2,6 +2,13 @@
 
 ## 结论：Gurobi 已解决（11-04 装上学术许可证）。基线推理和拼法代码仍未完成。
 
+> **更新（11-05）：** 下面的待办都已处理。
+> - "10 个里有 3 个 = 1.0"：查明是 Gurobi 容差 bug，见 `investigate_score1/REPORT.md`。
+> - 拼法代码：找到了，用在阶段 1（`stage1.py`）。
+> - GPU：用 Colab（T4），见 `../docs/SETUP.md`。
+> - 基线推理：不开回滚的 100 个已在 Colab 跑完并打分（原代码 24/100 稳定，修正后 30/100），见 `MORNING_REPORT.md` 第 4 节。开回滚的 100 个**还没跑**（Colab 上估计约 28 小时）。
+> - CLIP 分数：仍未运行。
+
 | 项目 | 结果 |
 |---|---|
 | 分支 | `pilot/BrickGPT` 上新建 `newbrick-1x3`。原始数据没改。新文件都放在 `icl/newbrick/` |

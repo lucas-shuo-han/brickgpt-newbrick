@@ -2,10 +2,35 @@
 
 **研究问题：** BrickGPT（LLaMA-3.2-1B + LoRA，根据文字描述生成乐高积木结构）能不能只用少量样本学会一种它没见过的新零件？加了新零件之后，结构会不会更好？需要多少样本？
 
-**现状（2026-11-05）：** 阶段 0 和阶段 1 已完成，停在阶段 1 的 Go / No-Go。新零件**没有让结构更稳**，只让用砖数变少。需要全队决定方向，见 [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md)。
+**现状（2026-11-05）：** 阶段 0 和阶段 1 已完成，停在阶段 1 的 Go / No-Go。新零件**没有让结构更稳**，只让用砖数变少。
+需要全队决定方向（A：省砖，用 1x3 或 2x3；B：换 2x2 转角砖，要改检查代码），见 [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md)。
 Proposal **11 月 12 日截止**（CMT + Gradescope），草稿在 [proposal/](proposal/)。
 
-> 给队友的同步消息：[docs/TEAM_UPDATE.md](docs/TEAM_UPDATE.md)
+**新来的队友建议按这个顺序读：** 本页 → [docs/TEAM_UPDATE.md](docs/TEAM_UPDATE.md)（一页同步）→ [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md)（待决定的事）→ [docs/LOG.md](docs/LOG.md)（按日期的工作日志）。
+
+## 文档索引
+
+| 文档 | 内容 |
+|---|---|
+| **项目和课程** | |
+| [requirements.md](requirements.md) | 课程要求原文（ICL 主题帖 + 行政帖） |
+| [spec-整理版.md](spec-整理版.md) | 课程要求整理版：时间线、会议、截止日期、评分 |
+| [proposal/README.md](proposal/README.md) | proposal 草稿 v1 的说明和待补项；源文件 `proposal.tex`，PDF `proposal.pdf` |
+| [lego_new_brick_prompt.md](lego_new_brick_prompt.md) | 实验 spec：阶段 0–4、对照组、Go/No-Go 规则、"不许编造数字" |
+| **团队协作** | |
+| [docs/TEAM_UPDATE.md](docs/TEAM_UPDATE.md) | 给队友的一页同步，可以直接转发 |
+| [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md) | 待决定的事：项目方向、GPU、proposal 修改 |
+| [docs/LOG.md](docs/LOG.md) | 工作日志：每天做了什么、得到什么、决定了什么 |
+| [docs/SETUP.md](docs/SETUP.md) | 环境搭建：Python、BrickGPT / STABLE 版本、数据、模型、Gurobi 许可证、Colab |
+| **实验报告**（按时间顺序） | |
+| [pilot/RESULTS.md](pilot/RESULTS.md) | pilot：只靠 prompt / few-shot / 小 LoRA，模型会不会用 1x3 |
+| [newbrick/STAGE0_REPORT.md](newbrick/STAGE0_REPORT.md) | 阶段 0：Gurobi、检查器速度、STABLE 指标、拼法代码 |
+| [newbrick/investigate_score1/REPORT.md](newbrick/investigate_score1/REPORT.md) | Gurobi 容差 bug 的调查和修正 |
+| [newbrick/STAGE1_REPORT.md](newbrick/STAGE1_REPORT.md) | 阶段 1：1x3 的物理可行性，以及补测的 2x3、1x10、1x12 |
+| [newbrick/MORNING_REPORT.md](newbrick/MORNING_REPORT.md) | 11-04 通宵实验汇总：新零件、bug 影响面、生成对比、Colab 基线及打分 |
+| **代码和数据说明** | |
+| [newbrick/colab/](newbrick/colab/) | Colab 笔记本 `brickgpt_newbrick.ipynb`（由 `build_notebook.py` 生成；公共函数在 `helpers.py`） |
+| [newbrick/stage2_data/manifest.json](newbrick/stage2_data/manifest.json) | 阶段 2 数据格式。**目前只有冒烟测试数据**（每个文件 5 行），正式数据还没生成 |
 
 ---
 
@@ -70,6 +95,7 @@ docs/
   SETUP.md                   环境搭建
   NEXT_STEPS.md              待决定的事
   TEAM_UPDATE.md             给队友的同步
+  LOG.md                     工作日志
 ```
 
 ## 怎么复现
