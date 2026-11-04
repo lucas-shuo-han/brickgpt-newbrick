@@ -38,6 +38,7 @@ PARTS = {'1x3': ('99', 1, 3, 0.00119, '3622.DAT'), '2x3': ('98', 2, 3, 0.001655,
 # group -> parts added on top of the original 8 bricks. 'Ball' = every extra size at once.
 GROUP_PARTS = {'B': ['1x3'], 'B2x3': ['2x3'], 'B1x10': ['1x10'], 'B1x12': ['1x12'],
                'B2x8': ['2x8'], 'B2x10': ['2x10'], 'B4x6': ['4x6'], 'Ball': list(PARTS)}
+assert GROUP == 'A' or GROUP in GROUP_PARTS, f'unknown group {GROUP}'
 NEW_LIST = [PARTS[p] for p in GROUP_PARTS.get(GROUP, [])]
 NEW = NEW_LIST[0] if len(NEW_LIST) == 1 else None  # single-part groups keep the old behaviour
 NEW_DIMS = {tuple(sorted(p[1:3])) for p in NEW_LIST}
