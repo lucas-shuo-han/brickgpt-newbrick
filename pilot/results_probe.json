@@ -1,0 +1,2892 @@
+[
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.77
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.2112711378082555,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.11,
+   "2": -6.43
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.08100143062933791,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.98,
+   "2": -7.41
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0003838415720594029,
+  "p_exact": 0.0003838415720594029,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.97,
+   "2": -5.48,
+   "3": -11.63
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0008655202216019354,
+  "p_exact": 0.0008655202216019354,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.39,
+   "2": -5.74,
+   "3": -11.21
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0002792999313854087,
+  "p_exact": 0.6529931770316347,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.16,
+   "2": -5.72,
+   "3": -11.83,
+   "4": -4.08
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0006099570791423358,
+  "p_exact": 0.5678863376692147,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.01,
+   "2": -6.52,
+   "3": -12.1,
+   "4": -5.26
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00019793494968833395,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.25,
+   "2": -7.04,
+   "3": -12.27,
+   "4": -4.03
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00023558913434371,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.92,
+   "2": -7.99,
+   "3": -13.46,
+   "4": -5.36
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.36
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.74
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.19935822584094298,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.74,
+   "2": -6.13
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.1365727650786906,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.5,
+   "2": -6.35
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0004443247593546529,
+  "p_exact": 0.0004443247593546529,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.51,
+   "2": -5.08,
+   "3": -11.04
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0014488062239191755,
+  "p_exact": 0.0014488062239191755,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.95,
+   "2": -5.15,
+   "3": -10.22
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0005556332026292264,
+  "p_exact": 0.5109643407320734,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.67,
+   "2": -5.43,
+   "3": -11.07,
+   "4": -4.24
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0013095965575961057,
+  "p_exact": 0.4798601995130106,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.46,
+   "2": -6.2,
+   "3": -11.05,
+   "4": -5.15
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.000473415222420293,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.7,
+   "2": -6.18,
+   "3": -11.24,
+   "4": -4.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0005575200135689996,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.21,
+   "2": -7.68,
+   "3": -12.16,
+   "4": -4.97
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.17
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.46
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.17396491554402163,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.08,
+   "2": -6.64
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.047629708473159935,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.38,
+   "2": -7.38
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.000741336906473093,
+  "p_exact": 0.000741336906473093,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.82,
+   "2": -5.52,
+   "3": -10.86
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.00099684207691614,
+  "p_exact": 0.00099684207691614,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.02,
+   "2": -5.67,
+   "3": -10.75
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0005631998497900462,
+  "p_exact": 0.5741967167741641,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.52,
+   "2": -5.48,
+   "3": -10.83,
+   "4": -3.9
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0009838624916702215,
+  "p_exact": 0.47682321327836397,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.58,
+   "2": -6.53,
+   "3": -11.52,
+   "4": -5.34
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0003515176279940391,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.9,
+   "2": -6.82,
+   "3": -11.56,
+   "4": -3.98
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.00036900499576594396,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.11,
+   "2": -7.99,
+   "3": -12.52,
+   "4": -4.91
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.5
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.31
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.15058464968003935,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.82,
+   "2": -7.55
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.06242645835026353,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.61,
+   "2": -8.32
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0001454756887801456,
+  "p_exact": 0.0001454756887801456,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.49,
+   "2": -5.95,
+   "3": -13.11
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.00031519007476700375,
+  "p_exact": 0.00031519007476700375,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.38,
+   "2": -6.16,
+   "3": -12.28
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0001418847526456249,
+  "p_exact": 0.7174131711542029,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.24,
+   "2": -6.27,
+   "3": -12.54,
+   "4": -4.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0006731221609381486,
+  "p_exact": 0.27339766401304394,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.03,
+   "2": -6.78,
+   "3": -11.85,
+   "4": -5.85
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0002670440005681001,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.92,
+   "2": -7.29,
+   "3": -12.08,
+   "4": -4.32
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "orig_prompt",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0003102204459617204,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.02,
+   "2": -8.48,
+   "3": -13.22,
+   "4": -5.74
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.49
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.0
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.2704798456711008,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.02,
+   "2": -6.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.1222752786171323,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.04,
+   "2": -7.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00037847993639087926,
+  "p_exact": 0.00037847993639087926,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.83,
+   "2": -5.2,
+   "3": -11.48
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0010583214803497772,
+  "p_exact": 0.0010583214803497772,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.47,
+   "2": -5.62,
+   "3": -11.05
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0004903569413634835,
+  "p_exact": 0.6566279135675446,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.88,
+   "2": -5.34,
+   "3": -10.94,
+   "4": -3.74
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0008993671756014418,
+  "p_exact": 0.5313450104310024,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.97,
+   "2": -6.23,
+   "3": -11.66,
+   "4": -5.27
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00040785861962869236,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.93,
+   "2": -6.55,
+   "3": -11.32,
+   "4": -3.86
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0004014234393131101,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.72,
+   "2": -7.71,
+   "3": -12.93,
+   "4": -5.43
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.22
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.51
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.20940561210229292,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.79,
+   "2": -6.11
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.11038686202140965,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.41,
+   "2": -6.49
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0006519275692203456,
+  "p_exact": 0.0006519275692203456,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.45,
+   "2": -4.94,
+   "3": -10.58
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0018838603964663214,
+  "p_exact": 0.0018838603964663214,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.89,
+   "2": -5.15,
+   "3": -9.91
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0012361559960077774,
+  "p_exact": 0.4756837254923522,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.46,
+   "2": -5.26,
+   "3": -10.14,
+   "4": -4.18
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.002174864610179779,
+  "p_exact": 0.38852030856120134,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.22,
+   "2": -5.98,
+   "3": -10.47,
+   "4": -5.29
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0010181728154123916,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.53,
+   "2": -6.01,
+   "3": -10.42,
+   "4": -4.14
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0009792975168343404,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.9,
+   "2": -7.37,
+   "3": -11.61,
+   "4": -5.13
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.98
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.27
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.18115750657380542,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.77,
+   "2": -6.28
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.04604771443281496,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.07,
+   "2": -7.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.000576348299791784,
+  "p_exact": 0.000576348299791784,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.6,
+   "2": -5.31,
+   "3": -10.89
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0012316811901092735,
+  "p_exact": 0.0012316811901092735,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.88,
+   "2": -5.59,
+   "3": -10.41
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0007346506807023755,
+  "p_exact": 0.6187654055719933,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.4,
+   "2": -5.26,
+   "3": -10.3,
+   "4": -3.56
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0015301143558958746,
+  "p_exact": 0.46911930857086986,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.35,
+   "2": -6.15,
+   "3": -10.82,
+   "4": -5.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0005850117119698691,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.76,
+   "2": -6.49,
+   "3": -10.83,
+   "4": -3.74
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.000661392422731464,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.87,
+   "2": -7.52,
+   "3": -11.75,
+   "4": -4.76
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.24
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.27
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.15490042588866154,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.75,
+   "2": -7.45
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.08446262369972216,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.76,
+   "2": -8.14
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0002100560978465549,
+  "p_exact": 0.0002100560978465549,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.38,
+   "2": -5.72,
+   "3": -12.61
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0003723640413031496,
+  "p_exact": 0.0003723640413031496,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.49,
+   "2": -6.03,
+   "3": -12.19
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0002174422950708658,
+  "p_exact": 0.7262992083910185,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.01,
+   "2": -6.04,
+   "3": -11.84,
+   "4": -3.73
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0008643028620888353,
+  "p_exact": 0.2660982675763642,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.08,
+   "2": -6.65,
+   "3": -11.63,
+   "4": -5.9
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0004825184134424002,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.71,
+   "2": -7.04,
+   "3": -11.19,
+   "4": -3.98
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_list",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0003696019642624976,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.15,
+   "2": -8.45,
+   "3": -13.21,
+   "4": -5.94
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.04
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.3051710027894504,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.5,
+   "2": -6.32
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.10611059333480496,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.3,
+   "2": -7.43
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0005220127225706385,
+  "p_exact": 0.0005220127225706385,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.33,
+   "2": -5.46,
+   "3": -11.61
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0011824050568385296,
+  "p_exact": 0.0011824050568385296,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.78,
+   "2": -5.92,
+   "3": -11.24
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0005156551376213494,
+  "p_exact": 0.5808659664377088,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.41,
+   "2": -5.56,
+   "3": -11.49,
+   "4": -4.46
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0010798559486001422,
+  "p_exact": 0.43088380602426,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.24,
+   "2": -6.76,
+   "3": -12.04,
+   "4": -6.05
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00035765556907683775,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.5,
+   "2": -6.97,
+   "3": -11.91,
+   "4": -4.28
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0005590598459199085,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.84,
+   "2": -8.12,
+   "3": -13.0,
+   "4": -5.93
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.45
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.48
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.2761686857668539,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.97,
+   "2": -5.94
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.13008828066324474,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.48,
+   "2": -6.38
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0013490464207826262,
+  "p_exact": 0.0013490464207826262,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.91,
+   "2": -5.03,
+   "3": -10.23
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0035491130854160514,
+  "p_exact": 0.0035491130854160514,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.25,
+   "2": -5.24,
+   "3": -9.57
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0013557880967711613,
+  "p_exact": 0.594121518047626,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.04,
+   "2": -5.53,
+   "3": -10.26,
+   "4": -4.18
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0030279197330349682,
+  "p_exact": 0.44200680861043096,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.64,
+   "2": -6.19,
+   "3": -10.39,
+   "4": -5.41
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0009332725794623636,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.16,
+   "2": -6.42,
+   "3": -10.79,
+   "4": -4.21
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0012283823873968135,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.17,
+   "2": -7.25,
+   "3": -11.36,
+   "4": -5.01
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.04
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.22
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.2587284462260947,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.74,
+   "2": -5.79
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.12132310573697405,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.25,
+   "2": -6.23
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.001114192821570557,
+  "p_exact": 0.001114192821570557,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.9,
+   "2": -5.15,
+   "3": -10.45
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0028158327416805853,
+  "p_exact": 0.0028158327416805853,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.17,
+   "2": -5.31,
+   "3": -9.76
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0011062156473672377,
+  "p_exact": 0.608742538674731,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.81,
+   "2": -5.49,
+   "3": -10.26,
+   "4": -3.95
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0026393572561025386,
+  "p_exact": 0.47322482900357504,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.67,
+   "2": -6.2,
+   "3": -10.49,
+   "4": -5.31
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0006864221453794382,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.1,
+   "2": -6.8,
+   "3": -10.97,
+   "4": -4.02
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0009546406811877386,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.25,
+   "2": -7.51,
+   "3": -11.69,
+   "4": -5.07
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.2
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.72
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.21936943101156828,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.55,
+   "2": -6.82
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.08798508315413024,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.61,
+   "2": -7.95
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0006200998595079775,
+  "p_exact": 0.0006200998595079775,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.35,
+   "2": -5.44,
+   "3": -11.44
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0011239020425444712,
+  "p_exact": 0.0011239020425444712,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.44,
+   "2": -6.14,
+   "3": -11.06
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0005520237406801329,
+  "p_exact": 0.6812185982910702,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.97,
+   "2": -5.82,
+   "3": -10.97,
+   "4": -3.86
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.001358537038396668,
+  "p_exact": 0.3502290165178935,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.1,
+   "2": -6.79,
+   "3": -11.1,
+   "4": -5.54
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0007614733468978692,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -4.48,
+   "2": -6.62,
+   "3": -10.83,
+   "4": -4.33
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "zeroshot_desc",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0004184644980701228,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.39,
+   "2": -8.43,
+   "3": -12.75,
+   "4": -5.3
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.68
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.31
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.6163008549896647,
+  "top": 2,
+  "abs_logp": {
+   "1": -5.96,
+   "2": -5.49
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.43558127797621765,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.35,
+   "2": -5.61
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0007540970809380528,
+  "p_exact": 0.0007540970809380528,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.24,
+   "2": -5.45,
+   "3": -11.83
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0012829232271630545,
+  "p_exact": 0.0012829232271630545,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.66,
+   "2": -5.71,
+   "3": -11.02
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0003047196130097828,
+  "p_exact": 0.679939279358963,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.82,
+   "2": -7.29,
+   "3": -13.78,
+   "4": -6.07
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00010510796252024761,
+  "p_exact": 0.8729231902982449,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.02,
+   "2": -7.91,
+   "3": -13.78,
+   "4": -4.75
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00040774064775340123,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.35,
+   "2": -7.26,
+   "3": -12.74,
+   "4": -6.36
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.000770602873890091,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.21,
+   "2": -7.8,
+   "3": -12.32,
+   "4": -5.68
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.89
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.25
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.5621961008901274,
+  "top": 2,
+  "abs_logp": {
+   "1": -5.38,
+   "2": -5.13
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.5748544004844007,
+  "top": 2,
+  "abs_logp": {
+   "1": -5.74,
+   "2": -5.44
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0015338816459686394,
+  "p_exact": 0.0015338816459686394,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.01,
+   "2": -5.17,
+   "3": -10.87
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0025781917813596598,
+  "p_exact": 0.0025781917813596598,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.68,
+   "2": -5.41,
+   "3": -10.25
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.000966723065175429,
+  "p_exact": 0.5862622448732109,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.21,
+   "2": -7.25,
+   "3": -12.59,
+   "4": -6.18
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.00025115760170285004,
+  "p_exact": 0.8580232245462859,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.15,
+   "2": -8.0,
+   "3": -13.13,
+   "4": -4.99
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0007733332714526628,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.12,
+   "2": -7.05,
+   "3": -11.94,
+   "4": -6.43
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0011138964538644758,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.74,
+   "2": -7.35,
+   "3": -11.68,
+   "4": -5.58
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.6
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.26
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.44642394735800556,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.98,
+   "2": -5.19
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.4797489621474698,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.82,
+   "2": -5.9
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0016266301111024094,
+  "p_exact": 0.0016266301111024094,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.58,
+   "2": -5.35,
+   "3": -10.62
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0017439604210026853,
+  "p_exact": 0.0017439604210026853,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.65,
+   "2": -5.74,
+   "3": -10.71
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0005734181044662249,
+  "p_exact": 0.7068688657860153,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.07,
+   "2": -7.2,
+   "3": -12.68,
+   "4": -5.56
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.00011699822402779774,
+  "p_exact": 0.8795451151983851,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.43,
+   "2": -8.11,
+   "3": -13.95,
+   "4": -5.03
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0006561376266990198,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.84,
+   "2": -7.21,
+   "3": -11.86,
+   "4": -6.17
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0010804785242420917,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.18,
+   "2": -7.6,
+   "3": -11.9,
+   "4": -5.6
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.24
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.5376648094672632,
+  "top": 2,
+  "abs_logp": {
+   "1": -6.61,
+   "2": -6.46
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.2946858166926987,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.21,
+   "2": -7.08
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.00019126135578555244,
+  "p_exact": 0.00019126135578555244,
+  "top": 2,
+  "abs_logp": {
+   "1": -6.16,
+   "2": -6.06,
+   "3": -13.98
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0012440480275395303,
+  "p_exact": 0.0012440480275395303,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.2,
+   "2": -6.54,
+   "3": -11.65
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 8.400481832826808e-05,
+  "p_exact": 0.6598565222331239,
+  "top": 4,
+  "abs_logp": {
+   "1": -8.35,
+   "2": -8.0,
+   "3": -15.77,
+   "4": -6.81
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 9.922423573749128e-05,
+  "p_exact": 0.9108003777243904,
+  "top": 4,
+  "abs_logp": {
+   "1": -8.27,
+   "2": -9.58,
+   "3": -14.84,
+   "4": -5.71
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.00025581992541176616,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.02,
+   "2": -7.39,
+   "3": -13.78,
+   "4": -6.91
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k1",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0008559885926680348,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.29,
+   "2": -9.05,
+   "3": -13.19,
+   "4": -6.58
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.81
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.34
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.1689797884367801,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.74,
+   "2": -6.33
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A long, low straight wall.",
+  "p_1x3": null,
+  "p_exact": 0.18479099866091583,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.47,
+   "2": -7.95
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.00021100162071858867,
+  "p_exact": 0.00021100162071858867,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.0,
+   "2": -5.71,
+   "3": -12.3
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0006412819689802757,
+  "p_exact": 0.0006412819689802757,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.14,
+   "2": -6.56,
+   "3": -12.28
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0002060857644229422,
+  "p_exact": 0.2917515275640834,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.24,
+   "2": -6.93,
+   "3": -13.97,
+   "4": -6.72
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0003731702888847706,
+  "p_exact": 0.5145994660817005,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.45,
+   "2": -9.54,
+   "3": -14.5,
+   "4": -7.27
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0003065463203451868,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.52,
+   "2": -6.58,
+   "3": -12.11,
+   "4": -5.17
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A long, low straight wall.",
+  "p_1x3": 0.0001574573820382041,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.66,
+   "2": -8.13,
+   "3": -13.17,
+   "4": -4.78
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.69
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.25
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.3653028242659456,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.94,
+   "2": -5.5
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": null,
+  "p_exact": 0.1837587797893344,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.09,
+   "2": -7.58
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0008271283894876174,
+  "p_exact": 0.0008271283894876174,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.24,
+   "2": -5.08,
+   "3": -10.98
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0012503250489793063,
+  "p_exact": 0.0012503250489793063,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.22,
+   "2": -6.47,
+   "3": -11.65
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0005851350108171352,
+  "p_exact": 0.26434097276811364,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.13,
+   "2": -6.32,
+   "3": -12.66,
+   "4": -6.55
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0005695631324872226,
+  "p_exact": 0.5884102184776935,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.14,
+   "2": -9.43,
+   "3": -13.63,
+   "4": -6.69
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.0009010772986103854,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.04,
+   "2": -6.3,
+   "3": -11.27,
+   "4": -5.14
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A simple fence made of a single row of bricks.",
+  "p_1x3": 0.00021362411224474782,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -5.52,
+   "2": -7.87,
+   "3": -12.71,
+   "4": -4.62
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.52
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.2840544849225059,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.53,
+   "2": -5.45
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A thin rectangular border.",
+  "p_1x3": null,
+  "p_exact": 0.1753042524121121,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.76,
+   "2": -7.3
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0003894131629575887,
+  "p_exact": 0.0003894131629575887,
+  "top": 1,
+  "abs_logp": {
+   "1": -3.82,
+   "2": -5.33,
+   "3": -11.47
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0010997443668010417,
+  "p_exact": 0.0010997443668010417,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.29,
+   "2": -6.39,
+   "3": -11.81
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0002445082910074042,
+  "p_exact": 0.3196517986281793,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.47,
+   "2": -6.63,
+   "3": -13.78,
+   "4": -6.61
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0005160454725961902,
+  "p_exact": 0.6434646639785531,
+  "top": 4,
+  "abs_logp": {
+   "1": -7.77,
+   "2": -9.43,
+   "3": -14.13,
+   "4": -7.0
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0005707469956403625,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.99,
+   "2": -6.37,
+   "3": -11.86,
+   "4": -5.56
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A thin rectangular border.",
+  "p_1x3": 0.0003572542821418644,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.25,
+   "2": -7.66,
+   "3": -12.61,
+   "4": -4.97
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.22
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 1,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 1.0,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.1
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.1085475496695675,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.08,
+   "2": -7.19
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 2,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": null,
+  "p_exact": 0.06794106936202277,
+  "top": 1,
+  "abs_logp": {
+   "1": -7.28,
+   "2": -9.9
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 8.821845248681485e-05,
+  "p_exact": 8.821845248681485e-05,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.25,
+   "2": -6.01,
+   "3": -13.43
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 3,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0004530520097224025,
+  "p_exact": 0.0004530520097224025,
+  "top": 1,
+  "abs_logp": {
+   "1": -5.74,
+   "2": -8.13,
+   "3": -13.35
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 9.689605745928728e-05,
+  "p_exact": 0.285339137362603,
+  "top": 1,
+  "abs_logp": {
+   "1": -6.11,
+   "2": -7.39,
+   "3": -14.77,
+   "4": -6.78
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 4,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.00033328228546402244,
+  "p_exact": 0.4243815288716396,
+  "top": 1,
+  "abs_logp": {
+   "1": -8.3,
+   "2": -11.33,
+   "3": -15.71,
+   "4": -8.56
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.0001778473203562753,
+  "p_exact": null,
+  "top": 1,
+  "abs_logp": {
+   "1": -4.69,
+   "2": -6.85,
+   "3": -12.93,
+   "4": -5.71
+  }
+ },
+ {
+  "probe": "A",
+  "cond": "fewshot_k3",
+  "gap": 5,
+  "caption": "A narrow bench with a flat top.",
+  "p_1x3": 0.00021400341980302342,
+  "p_exact": null,
+  "top": 4,
+  "abs_logp": {
+   "1": -6.63,
+   "2": -9.79,
+   "3": -14.09,
+   "4": -6.13
+  }
+ },
+ {
+  "probe": "B",
+  "cond": "orig_prompt",
+  "prefix": "merged_prefix",
+  "obj": 1277,
+  "n_prefix": 74,
+  "n_1x3_in_prefix": 6,
+  "p_1x3": 0.0069401258159544925,
+  "logp_1x3": -11.348543405532837,
+  "logp_alt": -6.385072350502014,
+  "alt": "1x1 (8,17,13)",
+  "new": "3x1 (6,17,13)"
+ },
+ {
+  "probe": "B",
+  "cond": "orig_prompt",
+  "prefix": "merged_prefix",
+  "obj": 308,
+  "n_prefix": 29,
+  "n_1x3_in_prefix": 3,
+  "p_1x3": 0.9999714423836592,
+  "logp_1x3": -10.221785843372345,
+  "logp_alt": -20.68534417077899,
+  "alt": "1x1 (3,2,2)",
+  "new": "3x1 (1,2,2)"
+ },
+ {
+  "probe": "B",
+  "cond": "zeroshot_list",
+  "prefix": "merged_prefix",
+  "obj": 1277,
+  "n_prefix": 68,
+  "n_1x3_in_prefix": 5,
+  "p_1x3": 2.842304975217727e-06,
+  "logp_1x3": -14.437475681304932,
+  "logp_alt": -1.6665832996368408,
+  "alt": "1x2 (0,15,10)",
+  "new": "1x3 (0,14,10)"
+ },
+ {
+  "probe": "B",
+  "cond": "zeroshot_list",
+  "prefix": "merged_prefix",
+  "obj": 308,
+  "n_prefix": 29,
+  "n_1x3_in_prefix": 3,
+  "p_1x3": 0.9999849359121923,
+  "logp_1x3": -9.829281687736511,
+  "logp_alt": -20.932463561184704,
+  "alt": "1x1 (3,2,2)",
+  "new": "3x1 (1,2,2)"
+ },
+ {
+  "probe": "B",
+  "cond": "zeroshot_desc",
+  "prefix": "merged_prefix",
+  "obj": 1277,
+  "n_prefix": 5,
+  "n_1x3_in_prefix": 1,
+  "p_1x3": 0.9999798869392605,
+  "logp_1x3": -2.4043504744768143,
+  "logp_alt": -13.21847152709961,
+  "alt": "2x1 (8,10,1)",
+  "new": "3x1 (7,10,1)"
+ },
+ {
+  "probe": "B",
+  "cond": "zeroshot_desc",
+  "prefix": "merged_prefix",
+  "obj": 308,
+  "n_prefix": 24,
+  "n_1x3_in_prefix": 1,
+  "p_1x3": 5.766425230557457e-10,
+  "logp_1x3": -21.53131997626042,
+  "logp_alt": -0.2575213913223706,
+  "alt": "1x1 (0,4,1)",
+  "new": "1x3 (0,2,1)"
+ },
+ {
+  "probe": "B",
+  "cond": "fewshot_k1",
+  "prefix": "merged_prefix",
+  "obj": 1277,
+  "n_prefix": 23,
+  "n_1x3_in_prefix": 3,
+  "p_1x3": 0.025020942945041296,
+  "logp_1x3": -7.748066425323486,
+  "logp_alt": -4.0853636264801025,
+  "alt": "1x2 (0,11,3)",
+  "new": "1x3 (0,10,3)"
+ },
+ {
+  "probe": "B",
+  "cond": "fewshot_k1",
+  "prefix": "merged_prefix",
+  "obj": 308,
+  "n_prefix": 9,
+  "n_1x3_in_prefix": 0,
+  "p_1x3": 0.00020912865107441126,
+  "logp_1x3": -12.356729805469513,
+  "logp_alt": -3.8843780159950256,
+  "alt": "1x2 (4,17,1)",
+  "new": "1x3 (4,16,1)"
+ },
+ {
+  "probe": "B",
+  "cond": "fewshot_k3",
+  "prefix": "merged_prefix",
+  "obj": 1277,
+  "n_prefix": 20,
+  "n_1x3_in_prefix": 2,
+  "p_1x3": 5.5201970143689906e-05,
+  "logp_1x3": -12.508553862571716,
+  "logp_alt": -2.7040971517562866,
+  "alt": "1x2 (8,11,3)",
+  "new": "1x3 (8,10,3)"
+ },
+ {
+  "probe": "B",
+  "cond": "fewshot_k3",
+  "prefix": "merged_prefix",
+  "obj": 308,
+  "n_prefix": 29,
+  "n_1x3_in_prefix": 3,
+  "p_1x3": 0.9999548450767082,
+  "logp_1x3": -10.347107768058777,
+  "logp_alt": -20.35247385315597,
+  "alt": "1x1 (3,2,2)",
+  "new": "3x1 (1,2,2)"
+ }
+]

@@ -1,0 +1,24 @@
+# Big / downloadable things (see docs/SETUP.md for how to get them)
+pilot/.venv/
+pilot/models/
+pilot/data/
+pilot/BrickGPT/
+newbrick/STABLE/
+
+# Run logs contain the Gurobi license ID; every number in them is also in the .jsonl outputs
+*.log
+pilot/log*.txt
+
+# Never commit licenses or keys
+gurobi.lic
+*.lic
+.env
+
+# LaTeX build files and old zip
+proposal/*.aux
+proposal/*.out
+*.zip
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,148 @@
+{
+  "inputs": [
+    "stage1_out/timing_A.jsonl",
+    "stage1_out/timing_B.jsonl"
+  ],
+  "format": "one {\"messages\":[system,user,assistant]} per (shape, caption), as prepare_finetuning_dataset.py",
+  "system_prompt": "You are a helpful assistant.",
+  "allowed_dims": {
+    "B_best": "2x4, 4x2, 2x6, 6x2, 1x2, 2x1, 1x4, 4x1, 1x6, 6x1, 1x8, 8x1, 1x1, 2x2, 1x3, 3x1",
+    "C2": "2x4, 4x2, 2x6, 6x2, 1x2, 2x1, 1x4, 4x1, 1x6, 6x1, 1x8, 8x1, 1x1, 2x2, 1x3, 3x1",
+    "C1": "2x4, 4x2, 2x6, 6x2, 1x2, 2x1, 1x4, 4x1, 1x6, 6x1, 1x8, 8x1, 1x1, 2x2, 1x3, 3x1"
+  },
+  "selection": "best-of-K: min (max_score, mean_score, seed) among stable layouts; C2: uniform random among all K B layouts",
+  "seeds": {
+    "split_seed": 1234,
+    "subset_seed": 0,
+    "c2_seed": 0
+  },
+  "holdout_frac": 0.1,
+  "counts": {
+    "input_shapes": 3,
+    "K_per_shape": {
+      "A": {
+        "2": 3
+      },
+      "B": {
+        "2": 3
+      }
+    },
+    "missing_caption": 0,
+    "test_overlap_exact": 0,
+    "test_overlap_ignoring_leading_zeros": 0,
+    "heldout_shapes": 1,
+    "heldout_examples": 5,
+    "train_pool_shapes": 2,
+    "eligible_shapes": 1,
+    "excluded": {
+      "best B layout has no 1x3": 1
+    }
+  },
+  "files": {
+    "B_best_N100": {
+      "file": "B_best_N100.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 100
+    },
+    "C1_N100": {
+      "file": "C1_N100.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 0.0,
+      "mean_n_bricks_per_shape": 99.0,
+      "frac_shapes_with_1x3": 0.0,
+      "mean_max_score": 0.008862499999999995,
+      "frac_stable": 1.0,
+      "requested_N": 100
+    },
+    "C2_N100": {
+      "file": "C2_N100.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 100,
+      "n_same_seed_as_B_best": 1,
+      "n_identical_bricks_to_B_best": 1
+    },
+    "B_best_N500": {
+      "file": "B_best_N500.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 500
+    },
+    "C1_N500": {
+      "file": "C1_N500.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 0.0,
+      "mean_n_bricks_per_shape": 99.0,
+      "frac_shapes_with_1x3": 0.0,
+      "mean_max_score": 0.008862499999999995,
+      "frac_stable": 1.0,
+      "requested_N": 500
+    },
+    "C2_N500": {
+      "file": "C2_N500.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 500,
+      "n_same_seed_as_B_best": 1,
+      "n_identical_bricks_to_B_best": 1
+    },
+    "B_best_N2000": {
+      "file": "B_best_N2000.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 2000
+    },
+    "C1_N2000": {
+      "file": "C1_N2000.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 0.0,
+      "mean_n_bricks_per_shape": 99.0,
+      "frac_shapes_with_1x3": 0.0,
+      "mean_max_score": 0.008862499999999995,
+      "frac_stable": 1.0,
+      "requested_N": 2000
+    },
+    "C2_N2000": {
+      "file": "C2_N2000.jsonl",
+      "n_shapes": 1,
+      "n_examples": 5,
+      "mean_n_1x3_per_shape": 6.0,
+      "mean_n_bricks_per_shape": 93.0,
+      "frac_shapes_with_1x3": 1.0,
+      "mean_max_score": 0.008275000000000032,
+      "frac_stable": 1.0,
+      "requested_N": 2000,
+      "n_same_seed_as_B_best": 1,
+      "n_identical_bricks_to_B_best": 1
+    }
+  }
+}

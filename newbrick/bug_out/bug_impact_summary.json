@@ -1,0 +1,9 @@
+{
+ "n": 500,
+ "sample": "test.parquet, drop_duplicates(object_id), sample(n, random_state=7)",
+ "unstable_orig": 44,
+ "unstable_fixed": 10,
+ "flipped_by_bug": 34,
+ "frac_flipped": 0.068,
+ "floating": 0
+}

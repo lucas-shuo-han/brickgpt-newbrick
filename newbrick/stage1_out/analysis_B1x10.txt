@@ -1,0 +1,31 @@
+{
+"n_shapes": 40,
+"n_layouts": {
+"A": 440,
+"B1x10": 440
+},
+"all_layouts_stable_rate": {
+"A": 0.7681818181818182,
+"B1x10": 0.7295454545454545
+},
+"det_unstable": {
+"A": 13,
+"B1x10": 8
+},
+"B_best_has_1x3": 32,
+"B_best_mean_1x3": 3.175,
+"only_B_stable": [],
+"only_A_stable": [
+108,
+262
+]
+}
+best layout stable: A 40/40, B1x10 38/40
+B1x10 vs A | best_max             A med 0.0643 | B med 0.0532 | B better 19, A better 18, tie  3 | Wilcoxon p=0.72
+B1x10 vs A | best_mean            A med 0.0002 | B med 0.0002 | B better 22, A better 16, tie  2 | Wilcoxon p=0.989
+B1x10 vs A | best_n_bricks        A med 62.5000 | B med 61.0000 | B better 20, A better 15, tie  5 | Wilcoxon p=0.149
+B1x10 vs A | best_interlocking    A med 0.3810 | B med 0.3753 | B better 20, A better 18, tie  2 | Wilcoxon p=0.989
+B1x10 vs A | best_seam            A med 0.6442 | B med 0.6434 | B better 13, A better 19, tie  8 | Wilcoxon p=0.295
+B1x10 vs A | perturb_single_min   A med 0.9685 | B med 0.9579 | B better 11, A better 25, tie  4 | Wilcoxon p=0.00776
+B1x10 vs A | perturb_pair_min     A med 0.9249 | B med 0.9206 | B better 17, A better 18, tie  5 | Wilcoxon p=0.704
+B1x10 vs A | perturb_critical     A med 0.1231 | B med 0.1313 | B better 21, A better 16, tie  3 | Wilcoxon p=0.811

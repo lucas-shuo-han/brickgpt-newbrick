@@ -1,0 +1,11 @@
+{
+ "rollback_off": {
+  "n": 100,
+  "errors": 0,
+  "stable_orig": 24,
+  "stable_fixed": 30,
+  "flipped_by_bug": 6,
+  "floating": 65,
+  "stable_fixed_and_connected": 30
+ }
+}

@@ -1,0 +1,9 @@
+accelerate==1.15.0
+gurobipy==13.0.3
+numpy==1.26.4
+pandas==2.2.3
+peft==0.21.2
+pyarrow==17.0.0
+scipy==1.13.1
+torch==2.15.0
+transformers==4.57.6

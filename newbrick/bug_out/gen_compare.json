@@ -1,0 +1,310 @@
+{
+ "n_items": 12,
+ "identical": 10,
+ "regen_total": {
+  "on_buggy": 19,
+  "on_fixed": 27
+ },
+ "secs_total": {
+  "on_buggy": 25676.58,
+  "on_fixed": 35547.13
+ },
+ "final_unstable_fixed_scorer": {
+  "on_buggy": 0,
+  "on_fixed": 0
+ },
+ "final_unstable_orig_scorer": {
+  "on_buggy": 0,
+  "on_fixed": 1
+ },
+ "rows": [
+  {
+   "item": 0,
+   "on_buggy": {
+    "n_bricks": 79,
+    "regen": 2,
+    "rej": 116,
+    "secs": 7655.05,
+    "final_fixed_max": 0.16383214626374454,
+    "final_orig_max": 0.16383214626374454,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 335,
+    "regen": 11,
+    "rej": 339,
+    "secs": 21154.71,
+    "final_fixed_max": 0.04605271739130434,
+    "final_orig_max": 0.04605271739130434,
+    "floating": false,
+    "error": null
+   },
+   "identical": false
+  },
+  {
+   "item": 1,
+   "on_buggy": {
+    "n_bricks": 159,
+    "regen": 5,
+    "rej": 14,
+    "secs": 3676.56,
+    "final_fixed_max": 0.009372416497244074,
+    "final_orig_max": 0.009372416497244074,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 159,
+    "regen": 5,
+    "rej": 14,
+    "secs": 2177.44,
+    "final_fixed_max": 0.009372416497244074,
+    "final_orig_max": 0.009372416497244074,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 2,
+   "on_buggy": {
+    "n_bricks": 56,
+    "regen": 0,
+    "rej": 17,
+    "secs": 308.07,
+    "final_fixed_max": 0.004879008816019104,
+    "final_orig_max": 0.004879008816019104,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 56,
+    "regen": 0,
+    "rej": 17,
+    "secs": 224.84,
+    "final_fixed_max": 0.004879008816019104,
+    "final_orig_max": 0.004879008816019104,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 3,
+   "on_buggy": {
+    "n_bricks": 26,
+    "regen": 1,
+    "rej": 0,
+    "secs": 383.76,
+    "final_fixed_max": 0.03960000000000008,
+    "final_orig_max": 0.03960000000000008,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 26,
+    "regen": 1,
+    "rej": 0,
+    "secs": 285.17,
+    "final_fixed_max": 0.03960000000000008,
+    "final_orig_max": 0.03960000000000008,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 4,
+   "on_buggy": {
+    "n_bricks": 62,
+    "regen": 0,
+    "rej": 2,
+    "secs": 266.64,
+    "final_fixed_max": 0.02042023914447033,
+    "final_orig_max": 0.02042023914447033,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 62,
+    "regen": 0,
+    "rej": 2,
+    "secs": 183.24,
+    "final_fixed_max": 0.02042023914447033,
+    "final_orig_max": 0.02042023914447033,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 5,
+   "on_buggy": {
+    "n_bricks": 74,
+    "regen": 4,
+    "rej": 103,
+    "secs": 3982.52,
+    "final_fixed_max": 0.003679279745093189,
+    "final_orig_max": 0.003679279745093189,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 74,
+    "regen": 4,
+    "rej": 103,
+    "secs": 1493.65,
+    "final_fixed_max": 0.003679279745093189,
+    "final_orig_max": 0.003679279745093189,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 6,
+   "on_buggy": {
+    "n_bricks": 52,
+    "regen": 2,
+    "rej": 19,
+    "secs": 2025.06,
+    "final_fixed_max": 0.06908553719008281,
+    "final_orig_max": 0.06908553719008281,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 52,
+    "regen": 2,
+    "rej": 19,
+    "secs": 2522.8,
+    "final_fixed_max": 0.06908553719008281,
+    "final_orig_max": 0.06908553719008281,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 7,
+   "on_buggy": {
+    "n_bricks": 57,
+    "regen": 0,
+    "rej": 0,
+    "secs": 635.54,
+    "final_fixed_max": 0.007697825304935901,
+    "final_orig_max": 0.007697825304935901,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 57,
+    "regen": 0,
+    "rej": 0,
+    "secs": 839.21,
+    "final_fixed_max": 0.007697825304935901,
+    "final_orig_max": 0.007697825304935901,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 8,
+   "on_buggy": {
+    "n_bricks": 37,
+    "regen": 1,
+    "rej": 1,
+    "secs": 1465.45,
+    "final_fixed_max": 0.01914567403424927,
+    "final_orig_max": 0.01914567403424927,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 89,
+    "regen": 0,
+    "rej": 1,
+    "secs": 1185.44,
+    "final_fixed_max": 1.1279399636521248e-10,
+    "final_orig_max": 1.0,
+    "floating": false,
+    "error": null
+   },
+   "identical": false
+  },
+  {
+   "item": 9,
+   "on_buggy": {
+    "n_bricks": 40,
+    "regen": 0,
+    "rej": 0,
+    "secs": 440.13,
+    "final_fixed_max": 0.6094186853724954,
+    "final_orig_max": 0.6094186853724954,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 40,
+    "regen": 0,
+    "rej": 0,
+    "secs": 470.98,
+    "final_fixed_max": 0.6094186853724954,
+    "final_orig_max": 0.6094186853724954,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 10,
+   "on_buggy": {
+    "n_bricks": 60,
+    "regen": 0,
+    "rej": 0,
+    "secs": 652.46,
+    "final_fixed_max": 0.03341833333333333,
+    "final_orig_max": 0.03341833333333333,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 60,
+    "regen": 0,
+    "rej": 0,
+    "secs": 664.77,
+    "final_fixed_max": 0.03341833333333333,
+    "final_orig_max": 0.03341833333333333,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  },
+  {
+   "item": 11,
+   "on_buggy": {
+    "n_bricks": 149,
+    "regen": 4,
+    "rej": 7,
+    "secs": 4185.34,
+    "final_fixed_max": 0.037799999999999945,
+    "final_orig_max": 0.037799999999999945,
+    "floating": false,
+    "error": null
+   },
+   "on_fixed": {
+    "n_bricks": 149,
+    "regen": 4,
+    "rej": 7,
+    "secs": 4344.88,
+    "final_fixed_max": 0.037799999999999945,
+    "final_orig_max": 0.037799999999999945,
+    "floating": false,
+    "error": null
+   },
+   "identical": true
+  }
+ ]
+}
