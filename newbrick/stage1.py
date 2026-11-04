@@ -30,9 +30,17 @@ GROUP, N, K, OUT = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), Path(sys.arg
 import mesh2brick.data.brick_library as mbl  # noqa: E402
 # New parts. Masses are estimates, interpolated/extrapolated from the library's own masses:
 #   1x3 = mean(1x2, 1x4); 2x3 = mean(2x2, 2x4); 1x10 / 1x12 = 1x8 + 0.000375 per extra stud (1x6->1x8 slope).
-NEW_PARTS = {'B': ('99', 1, 3, 0.00119, '3622.DAT'), 'B2x3': ('98', 2, 3, 0.001655, '3002.DAT'),
-             'B1x10': ('97', 1, 10, 0.003780, '6111.DAT'), 'B1x12': ('96', 1, 12, 0.004530, '6112.DAT')}
-NEW = NEW_PARTS.get(GROUP)
+#   2x8 / 2x10 = 2x6 + 0.0002675 per extra stud (2x4->2x6 slope); 4x6 = two 2x6.
+PARTS = {'1x3': ('99', 1, 3, 0.00119, '3622.DAT'), '2x3': ('98', 2, 3, 0.001655, '3002.DAT'),
+         '1x10': ('97', 1, 10, 0.003780, '6111.DAT'), '1x12': ('96', 1, 12, 0.004530, '6112.DAT'),
+         '2x8': ('95', 2, 8, 0.004300, '3007.DAT'), '2x10': ('94', 2, 10, 0.005370, '3006.DAT'),
+         '4x6': ('93', 4, 6, 0.006460, '2356.DAT')}
+# group -> parts added on top of the original 8 bricks. 'Ball' = every extra size at once.
+GROUP_PARTS = {'B': ['1x3'], 'B2x3': ['2x3'], 'B1x10': ['1x10'], 'B1x12': ['1x12'],
+               'B2x8': ['2x8'], 'B2x10': ['2x10'], 'B4x6': ['4x6'], 'Ball': list(PARTS)}
+NEW_LIST = [PARTS[p] for p in GROUP_PARTS.get(GROUP, [])]
+NEW = NEW_LIST[0] if len(NEW_LIST) == 1 else None  # single-part groups keep the old behaviour
+NEW_DIMS = {tuple(sorted(p[1:3])) for p in NEW_LIST}
 
 
 def _add_part(lib_mod, part):
@@ -41,8 +49,8 @@ def _add_part(lib_mod, part):
     lib_mod._dimensions_to_brick_id_dict[(h, w)] = int(pid)
 
 
-if NEW:
-    _add_part(mbl, NEW)
+for _p in NEW_LIST:
+    _add_part(mbl, _p)
 from mesh2brick.voxel2brick import voxel2brick, Voxel2Brick  # noqa: E402
 
 if os.environ.get('JITTER') == '1':
@@ -55,9 +63,10 @@ if os.environ.get('JITTER') == '1':
     Voxel2Brick._greedy_priority = _jitter_priority
 
 from common import parse, ROOT  # noqa: E402  (also adds 1x3 to brickgpt's library, needed to score B layouts)
-if NEW and NEW[0] != '99':  # also add the part to brickgpt's library (used for scoring)
-    import importlib  # noqa: E402
-    _add_part(importlib.import_module('brickgpt.data.brick_library'), NEW)
+import importlib  # noqa: E402
+for _p in NEW_LIST:  # also add the parts to brickgpt's library (used for scoring); 1x3 is already added by common
+    if _p[0] != '99':
+        _add_part(importlib.import_module('brickgpt.data.brick_library'), _p)
 from brickgpt.data import BrickStructure  # noqa: E402
 from stable_metrics import interlocking_score, seam_coverage_score  # noqa: E402
 
@@ -103,7 +112,7 @@ with OUT.open('a') as f:
             assert ((bs.voxel_occupancy > 0) == (voxels > 0)).all(), 'layout changed the shape'
             d = dict(group=GROUP, tol_fix=os.environ.get('TOL_FIX', '1') == '1', jitter=os.environ.get('JITTER') == '1', shape_idx=i, object_id=r['object_id'], seed=seed, t_layout=round(t_layout, 2),
                      n_1x3=sum(1 for b in bs.bricks if sorted((b.h, b.w)) == [1, 3]),
-                     n_new=sum(1 for b in bs.bricks if NEW and sorted((b.h, b.w)) == sorted(NEW[1:3])), **score(bs),
+                     n_new=sum(1 for b in bs.bricks if tuple(sorted((b.h, b.w))) in NEW_DIMS), **score(bs),
                      bricks=bs.to_txt())
             d['t_total'] = round(time.time() - t0, 2)
             f.write(json.dumps(d) + '\n'); f.flush()
