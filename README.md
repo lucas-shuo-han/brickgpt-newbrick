@@ -20,6 +20,7 @@ Proposal **11 月 12 日截止**（CMT + Gradescope），草稿在 [proposal/](p
 | **团队协作** | |
 | [docs/TEAM_UPDATE.md](docs/TEAM_UPDATE.md) | 给队友的一页同步，可以直接转发 |
 | [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md) | 待决定的事：项目方向、GPU、proposal 修改 |
+| [docs/BRICK_SCREENING.md](docs/BRICK_SCREENING.md) | 新零件筛选：哪些常用砖能测、常见程度排名、能造多少训练数据 |
 | [docs/LOG.md](docs/LOG.md) | 工作日志：每天做了什么、得到什么、决定了什么 |
 | [docs/SETUP.md](docs/SETUP.md) | 环境搭建：Python、BrickGPT / STABLE 版本、数据、模型、Gurobi 许可证、Colab |
 | **实验报告**（按时间顺序） | |
@@ -96,6 +97,7 @@ docs/
   NEXT_STEPS.md              待决定的事
   TEAM_UPDATE.md             给队友的同步
   LOG.md                     工作日志
+  BRICK_SCREENING.md         新零件筛选
 ```
 
 ## 怎么复现

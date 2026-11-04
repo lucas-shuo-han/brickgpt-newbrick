@@ -1,0 +1,38 @@
+{
+ "n": 500,
+ "sample": "test.parquet drop_duplicates(object_id) sample(n, random_state=7)",
+ "result": {
+  "1x3": {
+   "pairs_per_structure": 4.922,
+   "frac_structures_with_one": 0.808
+  },
+  "2x3": {
+   "pairs_per_structure": 3.8,
+   "frac_structures_with_one": 0.784
+  },
+  "1x10": {
+   "pairs_per_structure": 1.692,
+   "frac_structures_with_one": 0.544
+  },
+  "1x12": {
+   "pairs_per_structure": 1.152,
+   "frac_structures_with_one": 0.458
+  },
+  "1x16": {
+   "pairs_per_structure": 0.594,
+   "frac_structures_with_one": 0.276
+  },
+  "2x8": {
+   "pairs_per_structure": 2.718,
+   "frac_structures_with_one": 0.75
+  },
+  "2x10": {
+   "pairs_per_structure": 1.906,
+   "frac_structures_with_one": 0.592
+  },
+  "4x6": {
+   "pairs_per_structure": 7.742,
+   "frac_structures_with_one": 0.876
+  }
+ }
+}
